@@ -1,0 +1,151 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Verify that product has been added to the cart",
+        "description": "",
+        "id": "this-is-to-validate-cartspring-functionality;verify-that-product-has-been-added-to-the-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2404615700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch spring \"\u003cURL\u003e\" application",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURL\u003e",
+                  "offset": 15
+                }
+              ],
+              "location": "loginSpring.launch_spring_application(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 187660600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Mouse Hover on Women category",
+            "match": {
+              "location": "cartSpring.mouse_Hover_on_Women_category()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1531628100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click  Tshirt",
+            "match": {
+              "location": "cartSpring.click_Tshirt()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2659226800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Select highest price from dropdown",
+            "match": {
+              "location": "cartSpring.Select_highest_price_from_dropdown()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5807409000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Mouse hover and click Quick view tshirt",
+            "match": {
+              "location": "cartSpring.mouse_hover_and_click_Quick_view_tshirt()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 40120917300,
+              "error_message": "org.openqa.selenium.NoSuchFrameException: No frame element found by name or id fancybox-iframe\nBuild info: version: \u00273.14.0\u0027, revision: \u0027aacccce0\u0027, time: \u00272018-08-02T20:19:58.91Z\u0027\nSystem info: host: \u0027OLIVERESABELLE\u0027, ip: \u0027192.168.1.194\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.13\u0027\nDriver info: driver.version: unknown\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:881)\r\n\tat com.spring.action.productpageSpringActions.ClickblueTshirt(productpageSpringActions.java:16)\r\n\tat StepDefinitionSpring.cartSpring.click_blue_Tshirt(cartSpring.java:39)\r\n\tat ✽.Then Click blue Tshirt(cartSpring.feature:10)\r\n",
+              "status": "failed"
+            },
+            "line": 10,
+            "name": "Click blue Tshirt",
+            "match": {
+              "location": "cartSpring.click_blue_Tshirt()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "Enter five quantity",
+            "match": {
+              "location": "cartSpring.enter_five_quantity()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "Click add to Cart",
+            "match": {
+              "location": "cartSpring.click_add_to_Cart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "Click proceed to checkout button",
+            "match": {
+              "location": "cartSpring.click_proceed_to_checkout_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "Verify product added to cart",
+            "match": {
+              "location": "cartSpring.verify_product_added_to_cart()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@cart"
+          }
+        ]
+      }
+    ],
+    "name": "This is to validate cartSpring functionality",
+    "description": "",
+    "id": "this-is-to-validate-cartspring-functionality",
+    "keyword": "Feature",
+    "uri": "cartSpring.feature"
+  }
+]
