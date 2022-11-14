@@ -10,7 +10,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 
 @CucumberOptions(features = { "src/test/resourcesS/FeaturesSpring" } ,
 plugin = {"json:target/cucumber.json" } , 
-glue = "StepDefinitionSpring" ,tags= {"@cart"})
+glue = "StepDefinitionSpring" ,tags= {"@calendar"})
 
 public class TestRunnerSpringClass extends AbstractTestNGCucumberTests {
 
