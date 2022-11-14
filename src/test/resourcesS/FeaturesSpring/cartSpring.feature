@@ -2,7 +2,7 @@ Feature: This is to validate cartSpring functionality
 
 @cart
 Scenario: Verify that product has been added to the cart
-Given  Launch spring "<URL>" application 
+Given Launch spring "<URL>" application 
 Then Mouse Hover on Women category 
 Then Click  Tshirt
 Then Select highest price from dropdown

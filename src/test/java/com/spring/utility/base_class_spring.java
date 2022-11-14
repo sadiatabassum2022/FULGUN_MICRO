@@ -55,8 +55,8 @@ public class base_class_spring {
 
 	public static void getURLSPR(String URL) {
 		
-		driver.get(propspring.getProperty("URLSPR"));
-		
+		driver.get(propspring.getProperty("URLSPR4"));
+	
 	}
 	
 
