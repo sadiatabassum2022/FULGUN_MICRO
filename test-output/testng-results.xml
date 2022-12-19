@@ -2,23 +2,23 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-08T12:49:31 PST" name="Default suite" finished-at="2022-11-08T12:49:50 PST" duration-ms="19119">
+  <suite started-at="2022-12-19T14:23:25 PST" name="Default suite" finished-at="2022-12-19T14:23:44 PST" duration-ms="18785">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.spring.TestRunner.TestRunnerSpringClass@3d1cfad4]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2022-11-08T12:49:31 PST" name="Default test" finished-at="2022-11-08T12:49:50 PST" duration-ms="19119">
+    <test started-at="2022-12-19T14:23:25 PST" name="Default test" finished-at="2022-12-19T14:23:44 PST" duration-ms="18785">
       <class name="com.spring.TestRunner.TestRunnerSpringClass">
-        <test-method is-config="true" signature="startURLspr()[pri:0, instance:com.spring.TestRunner.TestRunnerSpringClass@3d1cfad4]" started-at="2022-11-08T12:49:31 PST" name="startURLspr" finished-at="2022-11-08T12:49:32 PST" duration-ms="1737" status="PASS">
+        <test-method is-config="true" signature="startURLspr()[pri:0, instance:com.spring.TestRunner.TestRunnerSpringClass@3d1cfad4]" started-at="2022-12-19T14:23:25 PST" name="startURLspr" finished-at="2022-12-19T14:23:27 PST" duration-ms="1952" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startURLspr -->
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.spring.TestRunner.TestRunnerSpringClass@3d1cfad4]" started-at="2022-11-08T12:49:33 PST" name="setUpClass" finished-at="2022-11-08T12:49:33 PST" duration-ms="121" status="PASS">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.spring.TestRunner.TestRunnerSpringClass@3d1cfad4]" started-at="2022-12-19T14:23:27 PST" name="setUpClass" finished-at="2022-12-19T14:23:27 PST" duration-ms="187" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.spring.TestRunner.TestRunnerSpringClass@3d1cfad4]" started-at="2022-11-08T12:49:33 PST" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-11-08T12:49:49 PST" duration-ms="16496" status="PASS">
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.spring.TestRunner.TestRunnerSpringClass@3d1cfad4]" started-at="2022-12-19T14:23:28 PST" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-12-19T14:23:43 PST" duration-ms="15753" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -29,11 +29,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.spring.TestRunner.TestRunnerSpringClass@3d1cfad4]" started-at="2022-11-08T12:49:49 PST" name="tearDownClass" finished-at="2022-11-08T12:49:49 PST" duration-ms="8" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.spring.TestRunner.TestRunnerSpringClass@3d1cfad4]" started-at="2022-12-19T14:23:43 PST" name="tearDownClass" finished-at="2022-12-19T14:23:43 PST" duration-ms="18" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-        <test-method is-config="true" signature="closeURLspr()[pri:0, instance:com.spring.TestRunner.TestRunnerSpringClass@3d1cfad4]" started-at="2022-11-08T12:49:49 PST" name="closeURLspr" finished-at="2022-11-08T12:49:50 PST" duration-ms="678" status="PASS">
+        <test-method is-config="true" signature="closeURLspr()[pri:0, instance:com.spring.TestRunner.TestRunnerSpringClass@3d1cfad4]" started-at="2022-12-19T14:23:43 PST" name="closeURLspr" finished-at="2022-12-19T14:23:44 PST" duration-ms="738" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeURLspr -->
